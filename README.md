@@ -1,15 +1,15 @@
 # Getting started with Rails
 
 ## 1
-### This guide covers getting up and running with Ruby on Rails.
+### Getting up and running with Ruby on Rails.
 
-After reading this guide, you will know:
+By creating this repository, I worked through and applied the core building blocks of a modern Rails application:
 
-* How to install Rails, create a new Rails application, and connect your application to a database.
-* The general layout of a Rails application.
-* The basic principles of MVC (Model, View, Controller) and RESTful design.
-* How to quickly generate the starting pieces of a Rails application.
-* How to deploy your app to production using Kamal.
+* Installed Ruby on Rails, initialized a fresh app, and set up a working database connection.
+* Got familiar with the overall structure and conventions of a Rails project.
+* Learned the fundamentals of MVC (Model, View, Controller) architecture and RESTful design patterns.
+* Used Rails generators to scaffold the initial components of the app efficiently.
+* Deployed the finished application to production using Kamal.
 
 ## 2
 ### This README would normally document whatever steps are necessary to get the application up and running.
