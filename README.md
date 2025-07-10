@@ -1,4 +1,4 @@
-# README
+# Getting started with Rails
 
 ## 1
 ### This guide covers getting up and running with Ruby on Rails.
