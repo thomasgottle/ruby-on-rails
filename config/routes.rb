@@ -14,4 +14,5 @@ Rails.application.routes.draw do
 
   # CRUD (Create, Read, Update, Delete) Routes
   resources :products
+  #root "products#index"
 end
