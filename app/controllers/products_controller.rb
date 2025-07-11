@@ -4,6 +4,10 @@ class ProductsController < ApplicationController
 
   before_action :set_product, only: %i[ show edit update destroy ]
 
+  def product_params
+    params.expect(product: [ :name, :description ])
+  end
+
   def index
     @products = Product.order(:name)
   end
@@ -43,9 +47,5 @@ class ProductsController < ApplicationController
   private
   def set_product
     @product = Product.find(params[:id])
-  end
-
-  def product_params
-    params.expect(product: [ :name ])
   end
 end
