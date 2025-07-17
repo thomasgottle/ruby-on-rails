@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   # CRUD (Create, Read, Update, Delete) Routes
-  resources :products
+  resources :products do
+    resources :subscribers, only: [ :create ]
+  end
   root "products#index"
 end
